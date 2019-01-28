@@ -1,7 +1,436 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf0267d1-3f6a-4140-9d73-a780c4510b58" name="Default" comment="" />
+    <list default="true" id="bf0267d1-3f6a-4140-9d73-a780c4510b58" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.circleci/config.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.circleci/server.key.enc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/brokers-data.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/properties-data.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/sample-data-plan.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dreamhouse-logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/applications/DreamHouse.app-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Bot/Bot.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Bot/Bot.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Bot/Bot.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Bot/Bot.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Bot/BotController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Bot/BotHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Bot/BotRenderer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/BrokerDetails/BrokerDetails.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/BrokerDetails/BrokerDetails.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/BrokerDetails/BrokerDetails.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/BrokerDetails/BrokerDetails.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDashboard/EinsteinVisionDashboard.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDashboard/EinsteinVisionDashboard.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDashboard/EinsteinVisionDashboard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDashboard/EinsteinVisionDashboardController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDashboard/EinsteinVisionDashboardHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDataset/EinsteinVisionDataset.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDataset/EinsteinVisionDataset.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDataset/EinsteinVisionDataset.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDataset/EinsteinVisionDatasetController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDataset/EinsteinVisionDatasetHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDatasetEvent/EinsteinVisionDatasetEvent.evt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionDatasetEvent/EinsteinVisionDatasetEvent.evt-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionEvent/EinsteinVisionEvent.evt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/EinsteinVisionEvent/EinsteinVisionEvent.evt-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Map/Map.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Map/Map.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Map/Map.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Map/Map.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Map/Map.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Map/MapController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/Map/MapRenderer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MapCard/MapCard.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MapCard/MapCard.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MapCard/MapCard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MapCard/MapCard.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MapCard/MapCard.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MapCard/MapCardController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageAmortizationChart/MortgageAmortizationChart.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageAmortizationChart/MortgageAmortizationChart.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageAmortizationChart/MortgageAmortizationChart.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageAmortizationChart/MortgageAmortizationChart.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageAmortizationChart/MortgageAmortizationChart.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageAmortizationChart/MortgageAmortizationChartController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageCalcWithAmortization/MortgageCalcWithAmortization.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageCalcWithAmortization/MortgageCalcWithAmortization.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageCalculator/MortgageCalculator.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageCalculator/MortgageCalculator.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageCalculator/MortgageCalculator.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageCalculator/MortgageCalculator.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageCalculator/MortgageCalculator.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageCalculator/MortgageCalculatorController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageCalculator/MortgageCalculatorHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageChange/MortgageChange.evt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/MortgageChange/MortgageChange.evt-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PageTemplate_2_6_4/PageTemplate_2_6_4.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PageTemplate_2_6_4/PageTemplate_2_6_4.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PageTemplate_2_6_4/PageTemplate_2_6_4.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PageTemplate_2_6_4/PageTemplate_2_6_4.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PageTemplate_2_7_3/PageTemplate_2_7_3.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PageTemplate_2_7_3/PageTemplate_2_7_3.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PageTemplate_2_7_3/PageTemplate_2_7_3.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PageTemplate_2_7_3/PageTemplate_2_7_3.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureCarousel/PictureCarousel.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureCarousel/PictureCarousel.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureCarousel/PictureCarousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureCarousel/PictureCarouselController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureCarousel/PictureCarouselHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureCarousel/PictureCarouselRenderer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureGalleryCard/PictureGalleryCard.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureGalleryCard/PictureGalleryCard.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureGalleryCard/PictureGalleryCard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureGalleryCard/PictureGalleryCard.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureGalleryCard/PictureGalleryCard.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PictureGalleryCard/PictureGalleryCardController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PriceRange/PriceRange.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PriceRange/PriceRange.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PriceRange/PriceRange.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PriceRange/PriceRange.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PriceRange/PriceRangeController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyCarousel/PropertyCarousel.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyCarousel/PropertyCarousel.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyCarousel/PropertyCarousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyCarousel/PropertyCarousel.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyCarousel/PropertyCarouselController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyCarousel/PropertyCarouselHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyDaysOnMarketChart/PropertyDaysOnMarketChart.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyDaysOnMarketChart/PropertyDaysOnMarketChart.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyDaysOnMarketChart/PropertyDaysOnMarketChart.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyDaysOnMarketChart/PropertyDaysOnMarketChart.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyDaysOnMarketChart/PropertyDaysOnMarketChart.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyDaysOnMarketChart/PropertyDaysOnMarketChartController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyDaysOnMarketChart/PropertyDaysOnMarketChartHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyFilterChange/PropertyFilterChange.evt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyFilterChange/PropertyFilterChange.evt-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyFilters/PropertyFilters.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyFilters/PropertyFilters.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyFilters/PropertyFilters.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyFilters/PropertyFilters.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyFilters/PropertyFiltersController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyFilters/PropertyFiltersHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyListMap/PropertyListMap.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyListMap/PropertyListMap.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyListMap/PropertyListMap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyListMap/PropertyListMap.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyListMap/PropertyListMapController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyListMap/PropertyListMapHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyListMap/PropertyListMapRenderer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyPageChange/PropertyPageChange.evt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyPageChange/PropertyPageChange.evt-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyPaginator/PropertyPaginator.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyPaginator/PropertyPaginator.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyPaginator/PropertyPaginator.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyPaginator/PropertyPaginatorController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertySummary/PropertySummary.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertySummary/PropertySummary.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertySummary/PropertySummary.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertySummary/PropertySummary.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertySummary/PropertySummary.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertySummary/PropertySummaryController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTile/PropertyTile.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTile/PropertyTile.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTile/PropertyTile.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTile/PropertyTileController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTileList/PropertyTileList.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTileList/PropertyTileList.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTileList/PropertyTileList.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTileList/PropertyTileList.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTileList/PropertyTileList.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTileList/PropertyTileListController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/PropertyTileList/PropertyTileListHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/RangeChange/RangeChange.evt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/RangeChange/RangeChange.evt-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/RecordMap/RecordMap.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/RecordMap/RecordMap.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/RecordMap/RecordMap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/RecordMap/RecordMap.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/RecordMap/RecordMapController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/RecordMap/RecordMapHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SampleDataImporter/SampleDataImporter.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SampleDataImporter/SampleDataImporter.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SampleDataImporter/SampleDataImporter.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SampleDataImporter/SampleDataImporterController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SimilarProperties/SimilarProperties.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SimilarProperties/SimilarProperties.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SimilarProperties/SimilarProperties.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SimilarProperties/SimilarProperties.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SimilarProperties/SimilarPropertiesController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SimilarProperties/SimilarPropertiesHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartHome/SmartHome.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartHome/SmartHome.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartHome/SmartHome.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartHome/SmartHomeController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartHomeCard/SmartHomeCard.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartHomeCard/SmartHomeCard.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartHomeCard/SmartHomeCard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartHomeCard/SmartHomeCard.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartHomeCard/SmartHomeCard.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLights/SmartLights.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLights/SmartLights.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLights/SmartLights.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLights/SmartLights.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLights/SmartLightsController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLights/SmartLightsHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLocks/SmartLocks.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLocks/SmartLocks.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLocks/SmartLocks.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartLocks/SmartLocksController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartThermostat/SmartThermostat.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartThermostat/SmartThermostat.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartThermostat/SmartThermostat.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/SmartThermostat/SmartThermostatController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VisualSearchBox/VisualSearchBox.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VisualSearchBox/VisualSearchBox.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VisualSearchBox/VisualSearchBox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VisualSearchBox/VisualSearchBoxController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VisualSearchBox/VisualSearchBoxHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VisualSearchEvent/VisualSearchEvent.evt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VisualSearchEvent/VisualSearchEvent.evt-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInput/VoiceInput.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInput/VoiceInput.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInput/VoiceInput.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInput/VoiceInputController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInput/VoiceInputHelper.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInputCard/VoiceInputCard.cmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInputCard/VoiceInputCard.cmp-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInputCard/VoiceInputCard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInputCard/VoiceInputCard.design" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInputCard/VoiceInputCardController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInputChangeEvent/VoiceInputChangeEvent.evt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/aura/VoiceInputChangeEvent/VoiceInputChangeEvent.evt-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotController.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotController.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotField.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotField.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotHandler.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotHandler.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotItem.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotItem.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotMessage.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotMessage.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotMessageButton.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotMessageButton.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotRecord.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotRecord.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotResponse.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotResponse.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotTest.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/BotTest.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/EinsteinVisionController.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/EinsteinVisionController.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/EinsteinVisionControllerTest.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/EinsteinVisionControllerTest.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerAddTwoNumbers.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerAddTwoNumbers.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerCostCenter.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerCostCenter.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerDashboard.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerDashboard.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerEmployeeId.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerEmployeeId.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFileUpload.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFileUpload.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFindAccount.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFindAccount.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFindContact.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFindContact.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFindProperties.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFindProperties.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFindPropertiesByBedrooms.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerFindPropertiesByBedrooms.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerHello.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerHello.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerHelp.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerHelp.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerHelpTopic.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerHelpTopic.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerImageBasedSearch.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerImageBasedSearch.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerMyOpenCases.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerMyOpenCases.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerNext.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerNext.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerPipeline.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerPipeline.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerQuarter.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerQuarter.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerReport.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerReport.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerSOQL.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerSOQL.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerTopOpportunities.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerTopOpportunities.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerTravelApproval.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HandlerTravelApproval.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HttpFormBuilder.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/HttpFormBuilder.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/JWT.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/JWT.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/JWTBearerFlow.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/JWTBearerFlow.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/LIFXController.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/LIFXController.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/LIFXControllerTest.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/LIFXControllerTest.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PostPriceChangeToSlack.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PostPriceChangeToSlack.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PostPriceChangeToSlackTest.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PostPriceChangeToSlackTest.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PropertyController.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PropertyController.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PropertyControllerTest.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PropertyControllerTest.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PropertyListPage.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PropertyListPage.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PushPriceChangeNotification.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PushPriceChangeNotification.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PushPriceChangeNotificationTest.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/PushPriceChangeNotificationTest.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/RejectDuplicateFavoriteTest.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/RejectDuplicateFavoriteTest.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/SampleDataController.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/SampleDataController.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/SlackOpportunityPublisher.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/SlackOpportunityPublisher.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/SlackOpportunityPublisherTest.cls" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/classes/SlackOpportunityPublisherTest.cls-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/contentassets/dreamhouselogosquare.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/contentassets/dreamhouselogosquare.asset-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/dashboards/DreamHouse_Dashboards.dashboardFolder-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/dashboards/DreamHouse_Dashboards/PwhxKrnFNjvWCIHRklHhRcEIEyIIBm.dashboard-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flexipages/Broker_Record_Page.flexipage-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flexipages/Einstein_Vision.flexipage-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flexipages/Property_Explorer.flexipage-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flexipages/Property_Finder.flexipage-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flexipages/Property_Record_Page.flexipage-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flexipages/Sample_Data_Import.flexipage-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flexipages/dreamhouseApplicationUtilityBar.flexipage-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flows/Advertise_New_Property.flow-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flows/Opportunity_Status_Change.flow-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flows/Post_Price_Changes_to_Slack.flow-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/flows/Price_Change_Push_Notification.flow-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/layouts/Bot_Command__c-Bot Action Layout.layout-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/layouts/Broker__c-Broker Layout.layout-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/layouts/Property_Favorite__c-Favorite Layout.layout-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/layouts/Property__c-Property Layout.layout-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Bot_Command__c/Bot_Command__c.object-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Bot_Command__c/fields/Active__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Bot_Command__c/fields/Apex_Class__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Bot_Command__c/fields/Pattern__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Bot_Command__c/fields/Sample_Utterance__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Bot_Command__c/listViews/All.listView-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/Broker__c.object-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/compactLayouts/Broker_Compact.compactLayout-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/fields/Broker_Id__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/fields/Email__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/fields/Mobile_Phone__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/fields/Phone__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/fields/Picture_IMG__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/fields/Picture__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/fields/Title__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Broker__c/listViews/All.listView-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Contact/Contact.object-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Contact/fields/Location__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Dreamhouse_Settings__c/Dreamhouse_Settings__c.object-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Dreamhouse_Settings__c/fields/Einstein_Vision_Email__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Dreamhouse_Settings__c/fields/LIFX_Token__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Dreamhouse_Settings__c/fields/LIFX_URL__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Dreamhouse_Settings__c/fields/Light_Service_URL__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Dreamhouse_Settings__c/fields/Push_Server_URL__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Dreamhouse_Settings__c/fields/Slack_Opportunity_Webhook_URL__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Dreamhouse_Settings__c/fields/Slack_Property_Webhook_URL__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property_Favorite__c/Property_Favorite__c.object-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property_Favorite__c/fields/Property__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property_Favorite__c/fields/User__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property_Favorite__c/listViews/All.listView-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/Property__c.object-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/compactLayouts/Property_Compact_Layout.compactLayout-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Address__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Asking_Price__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Assessed_Value__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Baths__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Beds__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Broker__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/City__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Date_Agreement__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Date_Closed__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Date_Contracted__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Date_Listed__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Date_Pre_Market__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Days_On_Market__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Description__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Location__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Picture_IMG__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Picture__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Predicted_Days_on_Market__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Price_Sold__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Price__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Record_Link__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/State__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Status__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Tags__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Thumbnail_IMG__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Thumbnail__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Title__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/fields/Zip__c.field-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/objects/Property__c/listViews/All.listView-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/pathAssistants/Property_Status.pathAssistant-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/permissionsets/dreamhouse.permissionset-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/quickActions/LogACall.quickAction-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/quickActions/NewCase.quickAction-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/quickActions/NewContact.quickAction-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/quickActions/NewEvent.quickAction-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/quickActions/NewLead.quickAction-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/quickActions/NewOpportunity.quickAction-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/quickActions/NewTask.quickAction-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/quickActions/Property__c.Smart_Home.quickAction-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/quickActions/SendEmail.quickAction-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/remoteSiteSettings/Einstein_Vision.remoteSite-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/remoteSiteSettings/LIFX.remoteSite-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/remoteSiteSettings/PushServer.remoteSite-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/remoteSiteSettings/Slack.remoteSite-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/reports/DreamHouse_Reports.reportFolder-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/reports/DreamHouse_Reports/Days_on_Market.report-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/reports/DreamHouse_Reports/Portfolio_Health.report-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/reports/DreamHouse_Reports/Properties_by_Broker.report-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/botCommands.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/botCommands.resource-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/brokers.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/brokers.resource-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/leaflet.resource" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/leaflet.resource-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/nouislider.resource" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/nouislider.resource-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/properties.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/staticresources/properties.resource-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/tabs/Bot_Command__c.tab-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/tabs/Broker__c.tab-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/tabs/Einstein_Vision.tab-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/tabs/Property_Explorer.tab-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/tabs/Property_Finder.tab-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/tabs/Property__c.tab-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/tabs/Sample_Data_Import.tab-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/triggers/InitPropertyDateListed.trigger" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/triggers/InitPropertyDateListed.trigger-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/triggers/PushNotificationTrigger.trigger" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/triggers/PushNotificationTrigger.trigger-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/triggers/RejectDuplicatePropertyFavorite.trigger" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/triggers/RejectDuplicatePropertyFavorite.trigger-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/force-app/main/default/workflows/Property__c.workflow-meta.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/prettier.config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/orgInit.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/packagingDeployment.sh" />
+      <change beforePath="$PROJECT_DIR$/.forceignore" afterPath="$PROJECT_DIR$/.forceignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/config/project-scratch-def.json" afterPath="$PROJECT_DIR$/config/project-scratch-def.json" />
+      <change beforePath="$PROJECT_DIR$/sfdx-project.json" afterPath="$PROJECT_DIR$/sfdx-project.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,8 +438,71 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".forceignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.forceignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="607">
+                <caret line="148" column="71" lean-forward="false" selection-start-line="148" selection-start-column="71" selection-end-line="148" selection-end-column="71" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sfdx-project.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sfdx-project.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project-scratch-def.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/project-scratch-def.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;&lt;&lt;</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.forceignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sfdx-project.json" />
+        <option value="$PROJECT_DIR$/config/project-scratch-def.json" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -18,9 +510,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="-22" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -64,8 +557,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,15 +564,22 @@
               <item name="geolocation" type="b2602c69:ProjectViewProjectNode" />
               <item name="geolocation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="geolocation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geolocation" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -191,41 +689,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548674883564</updated>
-      <workItem from="1548674884757" duration="296000" />
+      <workItem from="1548674884757" duration="1211000" />
+      <workItem from="1548676109851" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296000" />
+    <option name="totallyTimeSpent" value="1771000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Anonymous Apex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Anonymous Apex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SOQL Query" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4340796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SOQL Query" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Log Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Log Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,9 +734,49 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.forceignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="607">
+            <caret line="148" column="71" lean-forward="false" selection-start-line="148" selection-start-column="71" selection-end-line="148" selection-end-column="71" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sfdx-project.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/project-scratch-def.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
